@@ -46,10 +46,10 @@ function take_snapshot(){
         document.getElementById("result_emotion_name2").innerHTML=results[1].label;
         prediction_1=results[0].label;
         prediction_2=results[1].label;
-        speck();
+        
         if(results[0].label == "best")
         {
-            document.getElementById("update_emoji").innerhtml = "&#128077;";
+            document.getElementById("update_emoji").innerHTML = "&#128077;";
         }
         if(results[0].label == "victory")
         {
@@ -57,11 +57,11 @@ function take_snapshot(){
         }
         if(result[0].label == "amazing")
         {
-            document.getElementById("update_emoji").innerHTMl = "&#128076;";
+            document.getElementById("update_emoji").innerHTML = "&#128076;";
         }
         if(results[1].label == "best")
         {
-            document.getElementById("update_emoji2").innerhtml = "&#128077;";
+            document.getElementById("update_emoji2").innerHTML = "&#128077;";
         }
         if(results[1].label == "victory")
         {
