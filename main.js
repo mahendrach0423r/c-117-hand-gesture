@@ -69,7 +69,7 @@ function take_snapshot(){
         }
         if(result[1].label == "amazing")
         {
-            document.getElementById("update_emoji2").innerHTMl = "&#128076;";
+            document.getElementById("update_emoji2").innerHTML = "&#128076;";
         }
         
      }
